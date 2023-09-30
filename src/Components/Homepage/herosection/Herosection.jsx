@@ -16,7 +16,7 @@ function Herosection() {
   ];
 
   return (
-    <div  className=" place-items-center">
+    <>
     <Carousel
     className=""
     navigation={({ setActiveIndex, activeIndex, length }) => (
@@ -60,7 +60,8 @@ function Herosection() {
 
             </div>
 
-    </div>
+        </>
+
   )
 }
 
