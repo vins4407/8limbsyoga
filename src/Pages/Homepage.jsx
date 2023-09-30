@@ -9,16 +9,17 @@ import Experience from '../Components/Homepage/experienceSection/Experience'
 
 function Homepage() {
   return (
-    <section  className="  font-[Poppins] md:bg-top bg-center"    >
+    <>
         <Navbar />
         <Herosection />
         <CardsSection/>
+        <Experience/>
         <Enquery/>
 
         <Footer/>
     
-    
-  </section>  )
+    </>
+)
 }
 
 export default Homepage
