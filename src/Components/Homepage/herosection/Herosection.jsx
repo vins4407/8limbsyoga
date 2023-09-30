@@ -2,9 +2,8 @@ import img1 from "../../../assets/hero.jpg";
 import img2 from '../../../assets/hero2.jpg'
 import img3 from "../../../assets/hero3.jpg";
 import React from 'react'
-import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx"
-import { useState } from "react";
+import { Carousel } from "@material-tailwind/react";
+
 
 function Herosection() {
   const slides = [
@@ -13,49 +12,43 @@ function Herosection() {
     { url: img3 },
   ];
 
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  const prevSlide = () => {
-    const isFirstSlide = currentIndex === 0;
-    const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
-    setCurrentIndex(newIndex);
-  };
-
-  const nextSlide = () => {
-    const isLastSlide = currentIndex === slides.length - 1;
-    const newIndex = isLastSlide ? 0 : currentIndex + 1;
-    setCurrentIndex(newIndex);
-  };
-
-  const goToSlide = (slideIndex) => {
-    setCurrentIndex(slideIndex);
-  };
-
   return (
-    <div className=' h-[780px] w-full m-auto  relative group'>
-      <div
-        style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-        className='w-full h-full  bg-center bg-cover  duration-500'
-      ></div>
-      {/* Left Arrow */}
-      <div className='  group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
-      </div>
-      {/* Right Arrow */}
-      <div className=' group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
-      </div>
-      <div className='flex top-4 justify-center py-2'>
-        {slides.map((slide, slideIndex) => (
-          <div
-            key={slideIndex}
-            onClick={() => goToSlide(slideIndex)}
-            className='text-2xl cursor-pointer'
-          >
-            <RxDotFilled />
-          </div>
+    <div  className=" place-items-center">
+    <Carousel
+    className=""
+    navigation={({ setActiveIndex, activeIndex, length }) => (
+      <div className="absolute bottom-4 left-2/4 z-50 flex -translate-x-2/4 gap-2">
+        {new Array(length).fill("").map((_, i) => (
+          <span
+            key={i}
+            className={`block h-1 cursor-pointer rounded-2xl transition-all content-[''] ${
+              activeIndex === i ? "w-8 bg-white" : "w-4 bg-white/50"
+            }`}
+            onClick={() => setActiveIndex(i)}
+          />
         ))}
       </div>
+    )}
+  >
+    <img
+      src={img1}
+      alt="image 1"
+      className="  h-[40rem] w-full object-cover"
+    />
+    <img
+      src={img2}
+      alt="image 2"
+      className=" h-[40rem] w-full object-cover"
+    />
+    <img
+      src={img3}
+      alt="image 3"
+      className=" h-[40rem] w-full object-cover"
+    />
+
+  </Carousel>
+  <h1 className=' pt-10 text-center text-7xl text-orange-500 '> 8 Limbs Yoga Studio</h1>
+
     </div>
   )
 }
