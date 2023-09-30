@@ -19,20 +19,20 @@ function Experience() {
 
                 </h1>
             </div>
-            <div className=' flex place-items-center flex-col xl:flex-row   gap-20  '>
-                <div className='relative   overflow-hidden bg-cover bg-no-repeat'>
-                    <img  className='transition duration-300 ease-in-out hover:scale-110' src={yoga1} />
+            <div className=' flex place-items-center  flex-col xl:flex-row   gap-20  '>
+                <div className='relative     overflow-hidden bg-cover bg-no-repeat'>
+                    <img  className='transition  duration-300 ease-in-out hover:scale-110' src={yoga1} />
                 </div>
                 <div className='flex flex-col gap-4'>
 
                     <div className='flex gap-4 flex-col xl:flex-row' >
-                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                        <div class="relative rounded-xl   border border-orange-500   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
                             <img
                                 src={yoga2}
                                 class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
                                 alt="Louvre" />
                         </div>
-                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                        <div class="relative  rounded-xl   border border-orange-500 w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
                             <img
                                 src={yoga3}
                                 class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
@@ -43,13 +43,13 @@ function Experience() {
 
 
                     <div className='flex gap-4 flex-col xl:flex-row'>
-                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                        <div class="relative rounded-xl   border border-orange-500  w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
                             <img
                                 src={yoga4}
                                 class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
                                 alt="Louvre" />
                         </div>
-                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                        <div class="relative   rounded-xl   border border-orange-500 w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
                             <img
                                 src={yoga5}
                                 class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"

@@ -1,4 +1,4 @@
-import LOGO from "../../../assets/logo1.jpeg";
+import LOGO from "../../../assets/mainassets/8limbsyogalogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { CiMail, CiInstagram } from "react-icons/ci";
 

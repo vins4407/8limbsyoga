@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../../../assets/logo1.jpeg";
+import Logo from "../../../assets/mainassets/8limbsyogalogo.png";
 import NavLinks from "./NavLinks";
 import {IoIosCloseCircleOutline} from "react-icons/io"
 import {TiThMenu} from "react-icons/ti"
@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="bg-black  bg-opacity-20 backdrop-filter backdrop-blur-lg " style={{ zIndex: 1000, position: 'relative'  }}>
       <div className=" flex items-center font-medium justify-around ">
         <div className="z-10 p-5 md:w-auto w-full flex justify-around">
-          <img src={Logo} alt="logo" className="md:cursor-pointer  rounded-lg  h-24" />
+          <img src={Logo} alt="logo" className="md:cursor-pointer  rounded-lg  h-32" />
           <div className="text-3xl md:hidden" onClick={() => setOpen(!open)}>
             {open ? <IoIosCloseCircleOutline/> : <TiThMenu/> }
           </div>
