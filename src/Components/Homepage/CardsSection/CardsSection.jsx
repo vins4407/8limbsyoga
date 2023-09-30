@@ -1,10 +1,11 @@
 import React from 'react'
 import { CardDefault } from './card'
 
+
 function CardsSection() {
     return (
-        <div className="flex flex-col  justify-center py-10  gap-8" >
-            <div className='xl:py-32  xl:px-80 '>
+        <div className="flex flex-col  justify-center py-10  gap-16" >
+            <div className=' xl:pt-24  xl:px-80 px-4 xl:pl-80 '>
 
                 <h1 className=' text-2xl font-semibold  pb-8'>
                 Transform Your Life with Authentic & Premium Yoga Teacher Training at 8 Limbs Yoga Studio
@@ -26,7 +27,7 @@ function CardsSection() {
             </div>
 
 
-            <div className='flex flex-wrap justify-center px-40 gap-8'>
+            <div className='flex flex-wrap justify-center xl:px-40 gap-8'>
 
                 <CardDefault/>
                 <CardDefault/>

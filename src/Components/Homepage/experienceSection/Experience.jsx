@@ -1,10 +1,15 @@
 import React from 'react'
+import yoga1 from "../../../assets/yoga-pose.png"
+import yoga2 from "../../../assets/yoga2.jpeg"
+import yoga3 from "../../../assets/yoga3.jpeg"
+import yoga4 from "../../../assets/yoga4.jpg"
+import yoga5 from "../../../assets/yoga5.jpeg"
 
 function Experience() {
     return (
-        <div className=' flex  flex-col justify-center '>
+        <div className='flex flex-col place-items-center '>
 
-            <div className='xl:py-32  xl:px-80 gap-y-10'>
+            <div className='  xl:px-80  pt-32 px-4 xl:pl-80 gap-y-10 '>
                 <h1 className=' text-5xl font-semibold  pb-8'>
                     8 Limbs Yoga: <h1 className=' text-orange-500'>Where your yoga journey begins</h1>
                 </h1>
@@ -14,9 +19,47 @@ function Experience() {
 
                 </h1>
             </div>
-            {/* <div className=''>
-                <img src={meditation} alt="meditation" />
-            </div> */}
+            <div className=' flex place-items-center flex-col xl:flex-row   gap-20  '>
+                <div className='relative   overflow-hidden bg-cover bg-no-repeat'>
+                    <img  className='transition duration-300 ease-in-out hover:scale-110' src={yoga1} />
+                </div>
+                <div className='flex flex-col gap-4'>
+
+                    <div className='flex gap-4 flex-col xl:flex-row' >
+                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                            <img
+                                src={yoga2}
+                                class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
+                                alt="Louvre" />
+                        </div>
+                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                            <img
+                                src={yoga3}
+                                class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
+                                alt="Louvre" />
+                        </div>
+                    </div>
+                    
+
+
+                    <div className='flex gap-4 flex-col xl:flex-row'>
+                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                            <img
+                                src={yoga4}
+                                class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
+                                alt="Louvre" />
+                        </div>
+                        <div class="relative   w-72 h-72 overflow-hidden bg-cover bg-no-repeat">
+                            <img
+                                src={yoga5}
+                                class="  w-72 h-72 transition duration-300 ease-in-out hover:scale-110"
+                                alt="Louvre" />
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
 
         </div>
     )

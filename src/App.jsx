@@ -7,9 +7,8 @@ import Homepage from './Pages/Homepage'
 function App() {
 
   return (
-    <section>
+
       <Homepage />
-    </section>
 
   )
 }
