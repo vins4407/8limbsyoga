@@ -6,17 +6,20 @@ export const links = [
         {
           Head: "Normal Yoga training",
           sublink: [
-            { name: "100 hours yoga teacher training", link: "/" },
-            { name: "200 hours yoga teacher training", link: "/" },
-            { name: "300 hours yoga teacher training", link: "/" },
-            { name: "400 hours yoga teacher training", link: "/" },
+            { name: "100 HOURS YOGA TEACHER TRAINING", link: "/100-hour-yoga-teacher-training" },
+            { name: "200 HOURS YOGA TEACHER TRAINING", link: "/" },
+            { name: "300 HOURS YOGA TEACHER TRAINING", link: "/" },
+            { name: "200 HOURS + 50 HRS AERIAL YOGA TEACHER TRAINING", link: "/" },
+          
           ],
         },
         {
           Head: "Aerial Training",
           sublink: [
-            { name: "50 hours Aerial Teacher Training", link: "/" },
-            { name: "100 hours Aerial Teacher Training", link: "/" },
+            { name: "50 HOURS AERIAL YOGA TEACHER TRAINING", link: "/" },
+            { name: "100 HOURS AERIAL YOGA TEACHER TRAINING", link: "/" },
+            { name: "PRENATAL & POSTNATAL YOGA TEACHER TRAINING", link: "/" },
+
 
           ],
         },
@@ -30,10 +33,12 @@ export const links = [
         {
           Head: "yoga",
           sublink: [
-            { name: "200 hours yoga teacher training", link: "/" },
+            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/" },
             { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/" },
           ],
         },
+        
+
         
         
       ],
@@ -45,12 +50,18 @@ export const links = [
         {
           Head: "Special Training",
           sublink: [
-            { name: "Mindfulness Training", link: "/" },
-            { name: "Stress Relieave Training", link: "/" },
+            { name: "INDEPENDENCE DAY RETREAT", link: "/" },
+            { name: "STRESS-FREE TRAINING", link: "/" },
+            { name: "BREATHE AND WORK TRAINING", link: "/" },
+            { name: "MINDFULLNESS TRAINING", link: "/" },
+
  
           ],
         },
+        
+        
        
+        
   
       ],
     },

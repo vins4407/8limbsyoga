@@ -1,10 +1,10 @@
 import React from 'react'
 import Button from '../navbar/Button'
-import yogapose from "../../../assets/yoga-pose.jpg"
+import yogapose from "../../../assets/yoga-pose.png"
 function Enquery() {
     return (
-        <div className='flex flex-col place-items-center pt-32 xl:flex-row'>
-            <div className='flex-wrap   px-4 xl:pl-80 '>
+        <div className='flex flex-col bg-[#f1ece0ff] place-items-center pt-32 xl:px-80  xl:flex-row'>
+            <div className='  px-4 flex-1 '>
 
                 <h1 className=' text-5xl font-semibold  pb-8'>
                     Still Have Questions About Yoga Teacher Training at <h1 className=' text-orange-500'> 8 Limbs Yoga Studio?</h1>
@@ -23,8 +23,8 @@ function Enquery() {
 
 
             </div>
-            <div className=' place-items-center  flex-wrap'>
-                <img className=' w-80 xl:w-2/3 '
+            <div className=' place-items-center  '>
+                <img className= ' w-[30rem]  flex-1'
                     src={yogapose}
                     alt="yogapose"
                 />

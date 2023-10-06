@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Navbar from '../Components/Homepage/navbar/Navbar'
 import Herosection from '../Components/Homepage/herosection/Herosection'
 import CardsSection from '../Components/Homepage/CardsSection/CardsSection'
 import Enquery from '../Components/Homepage/EnquirySection/Enquery'
@@ -11,7 +10,7 @@ import { Testimonials } from '../Components/Homepage/testimonialSection/testimon
 function Homepage() {
   return (
     <>
-        <Navbar />
+        {/* <Navbar /> */}
         <Herosection />
         <CardsSection/>
         <Experience/>

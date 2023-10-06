@@ -1,86 +1,109 @@
 import LOGO from "../../../assets/mainassets/8limbsyogalogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { CiMail, CiInstagram } from "react-icons/ci";
+import Button from "../navbar/Button";
 
 
 const Footer = () => {
-    
+  const iframeUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120496.31207160234!2d72.75662146062452!3d19.303674363612593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a93c876cf81b%3A0x173ce4b2f5c06b75!2s8%20Limbs%20Yoga%20Classes!5e0!3m2!1sen!2sin!4v1696495568999!5m2!1sen!2sin';
+
   return (
-    <div
-      id="footer"
-      className="bg-black  bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6"
-    >
-      <div className=" xl:mx-52 xl:mb-4 flex flex-col md:flex-row justify-center md:justify-around  items-center ">
-        <img src={LOGO} className=" w-32 my-4" />
-        <div className="flex flex-col text-xl font-medium text-center md:text-left   text-black gap-3">
-          <h1 className=" font-semibold">About</h1>
-          <a
-            className=" font-light"
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
-            Previous Events
-          </a>
-          <a className=" font-light ">Upcoming Events</a>
-          <a className=" font-light" href="" >Join Us</a>
-        
+    <div id="footer" className="bg-[#f1ece0ff]  relative bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6">
+      <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />
+
+
+      <div className="  flex flex-col md:flex-row justify-center md:justify-around   ">
+        {/* Logo social */}
+        <div className=" flex flex-col items-center ">
+          <img src={LOGO} className="  w-32 my-4" />
+
+          <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
+            <a href="">
+              <CiMail color="white" />
+            </a>
+
+            <a
+              rel="noreferrer"
+              href=""
+              target="_blank"
+            >
+              <CiInstagram color="white" />
+            </a>
+            <a
+              rel="noreferrer"
+              href=""
+              target="_blank"
+            >
+              <FaLinkedin color="white" />
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col text-xl font-medium text-center md:text-left  text-black gap-3 my-4">
+
+        {/* Explore links */}
+        <div className="flex flex-col text-xl font-medium text-center md:text-left  text-black   gap">
           <h1 className=" font-semibold">Explore</h1>
-          <a
-            rel="noreferrer"
-            href="/"
-            className="font-light"
-            target="_blank"
-          >
-            100 Hours Yoga Teacher Training
-          </a>
-          <a
-            rel="noreferrer"
-            href="/"
-            className=" font-light"
-            target="_blank"
-          >
-            200 Hours Yoga Teacher Training
-          </a>
-          <a
-            rel="noreferrer"
-            href="/"
-            className=" font-light"
-            target="_blank"
-          >
-               50 Hours Aerial Yoga Training
+          <div class="">
+            <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+            <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+            <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+          </div>
 
-          </a>
+          <div className="gap-2  text-base flex flex-col">
+            <a href="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</a>
+            <a href="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</a>
+            <a href="/200-hour-yttc-50-hours-aerial-yoga">200 hours YTTC + 50 hours Aerial Yoga</a>
+            <a href="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</a>
+            <a href="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</a>
+            <a href="/100-hours-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</a>
+            <a href="/prenatal-and-postnatal-yoga-teacher-training">Prenatal and Postnatal Yoga Teacher Training</a>
+          </div>
 
         </div>
-        <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
-          <a href="">
-            <CiMail color="white" />
-          </a>
-          <a
-            rel="noreferrer"
-            href=""
-            target="_blank"
-          >
-          </a>
-          <a
-            rel="noreferrer"
-            href=""
-            target="_blank"
-          >
-            <CiInstagram color="white" />
-          </a>
-          <a
-            rel="noreferrer"
-            href=""
-            target="_blank"
-          >
-            <FaLinkedin color="white" />
-          </a>
+
+        {/* Contact Info */}
+        <div className="flex flex-col text-xl font-medium text-center md:text-left   text-black ">
+          <h1 className=" font-semibold">Contact Info</h1>
+          <div class="">
+            <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+            <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+            <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+          </div>
+          <div className="gap-2 flex text-base flex-col">
+            <a href="tel:+91 75586 60993">+91 75586 60993</a>
+            <a href="mailto:richasingh1907@gmail.com>">richasingh1907@gmail.com</a>
+            <a href="/refund-policy">Refund Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>
+            <a href="/terms-and-conditions">Terms And Conditions</a>
+
+          </div>
+
         </div>
+
+        {/* Map location */}
+        <div className="font-medium  ">
+
+          <div className=" flex items-center pb-3 gap-2">
+            <a className="bg-orange-500 text-white  px-6 py-3 " href="https://maps.app.goo.gl/dg88jY5rQMhFhaFn9" target="_blanck">Get Directions</a>
+            <div class=" items-center ">
+              <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+            </div>
+
+          </div>
+          <iframe
+            src={iframeUrl}
+            width="350"
+            height="300"
+            style={{ border: 0 }}
+            allowfullscreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
+
       </div>
+
       <div className="h-1 bg-white" />
       <span className="text-center mb-4 text-black  text-base sm:text-xl font-medium font-mono">
         Copyright @8limbsYogaStudio 2023

@@ -12,6 +12,17 @@ module.exports = withMT({
         },
         backgroundImage: {
           Hero: "url('assets/hero.jpg')",
+          'bg-pattern1': "url('assets/mainassets/bg1.jpeg')",
+          'bg-pattern2': "url('assets/mainassets/bg2.jpg')",
+          'bg-pattern3': "url('assets/mainassets/bg3.jpg')",
+          'bg-pattern4': "url('assets/mainassets/bg4.jpg')",
+          'bg-pattern5': "url('assets/mainassets/bg5.png')",
+          'bg-pattern6': "url('assets/mainassets/bg6.png')",
+          'pageJoint': "url('assets/mainassets/pageJoint.png')",
+
+
+
+
         },
       },
     },
