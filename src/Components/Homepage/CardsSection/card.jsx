@@ -11,7 +11,7 @@ import stars from "../../../assets/4star.png"
 
   export function CardDefault() {
     return (
-      <Card className="mt-6 w-96">
+      <Card className="mt-6 w-96 bg-[#f1ece0ff]">
         <CardHeader color="blue-gray" className="relative h-56">
           <img
           src={cardimg}

@@ -3,7 +3,7 @@ import Button from '../navbar/Button'
 import yogapose from "../../../assets/yoga-pose.png"
 function Enquery() {
     return (
-        <div className='flex flex-col bg-[#f1ece0ff] place-items-center pt-32 xl:px-80  xl:flex-row'>
+        <div className='flex flex-col  place-items-center pt-32 px-5 md:p-20 3xl:px-80  xl:flex-row'>
             <div className='  px-4 flex-1 '>
 
                 <h1 className=' text-5xl font-semibold  pb-8'>

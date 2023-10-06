@@ -19,11 +19,11 @@ module.exports = withMT({
           'bg-pattern5': "url('assets/mainassets/bg5.png')",
           'bg-pattern6': "url('assets/mainassets/bg6.png')",
           'pageJoint': "url('assets/mainassets/pageJoint.png')",
-
-
-
-
         },
+        screens: {
+          '3xl': '1700px',
+        },
+  
       },
     },
   plugins: [],

@@ -7,7 +7,7 @@ export const links = [
           Head: "Normal Yoga training",
           sublink: [
             { name: "100 HOURS YOGA TEACHER TRAINING", link: "/100-hour-yoga-teacher-training" },
-            { name: "200 HOURS YOGA TEACHER TRAINING", link: "/" },
+            { name: "200 HOURS YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
             { name: "300 HOURS YOGA TEACHER TRAINING", link: "/" },
             { name: "200 HOURS + 50 HRS AERIAL YOGA TEACHER TRAINING", link: "/" },
           

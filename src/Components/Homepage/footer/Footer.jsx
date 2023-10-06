@@ -1,7 +1,6 @@
 import LOGO from "../../../assets/mainassets/8limbsyogalogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { CiMail, CiInstagram } from "react-icons/ci";
-import Button from "../navbar/Button";
 
 
 const Footer = () => {
@@ -9,105 +8,106 @@ const Footer = () => {
 
   return (
     <div id="footer" className="bg-[#f1ece0ff]  relative bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6">
-      <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />
+        <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />
 
+        <div className="  flex flex-col xl:flex-row justify-center md:justify-around   ">
+         
+          {/* Logo social */}
+          <div className=" flex flex-col items-center ">
+            <img src={LOGO} className="  w-32 my-4" />
 
-      <div className="  flex flex-col md:flex-row justify-center md:justify-around   ">
-        {/* Logo social */}
-        <div className=" flex flex-col items-center ">
-          <img src={LOGO} className="  w-32 my-4" />
+            <div className="flex flex-row justify-evenly text-3xl  gap-4 my-4">
+              <a href="">
+                <CiMail color="white" />
+              </a>
 
-          <div className="flex flex-row justify-evenly text-3xl md:place-self-end gap-4 my-4">
-            <a href="">
-              <CiMail color="white" />
-            </a>
-
-            <a
-              rel="noreferrer"
-              href=""
-              target="_blank"
-            >
-              <CiInstagram color="white" />
-            </a>
-            <a
-              rel="noreferrer"
-              href=""
-              target="_blank"
-            >
-              <FaLinkedin color="white" />
-            </a>
-          </div>
-        </div>
-
-        {/* Explore links */}
-        <div className="flex flex-col text-xl font-medium text-center md:text-left  text-black   gap">
-          <h1 className=" font-semibold">Explore</h1>
-          <div class="">
-            <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
-            <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-            <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <a
+                rel="noreferrer"
+                href=""
+                target="_blank"
+              >
+                <CiInstagram color="white" />
+              </a>
+              <a
+                rel="noreferrer"
+                href=""
+                target="_blank"
+              >
+                <FaLinkedin color="white" />
+              </a>
+            </div>
           </div>
 
-          <div className="gap-2  text-base flex flex-col">
-            <a href="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</a>
-            <a href="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</a>
-            <a href="/200-hour-yttc-50-hours-aerial-yoga">200 hours YTTC + 50 hours Aerial Yoga</a>
-            <a href="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</a>
-            <a href="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</a>
-            <a href="/100-hours-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</a>
-            <a href="/prenatal-and-postnatal-yoga-teacher-training">Prenatal and Postnatal Yoga Teacher Training</a>
-          </div>
-
-        </div>
-
-        {/* Contact Info */}
-        <div className="flex flex-col text-xl font-medium text-center md:text-left   text-black ">
-          <h1 className=" font-semibold">Contact Info</h1>
-          <div class="">
-            <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
-            <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-            <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
-          </div>
-          <div className="gap-2 flex text-base flex-col">
-            <a href="tel:+91 75586 60993">+91 75586 60993</a>
-            <a href="mailto:richasingh1907@gmail.com>">richasingh1907@gmail.com</a>
-            <a href="/refund-policy">Refund Policy</a>
-            <a href="/privacy-policy">Privacy Policy</a>
-            <a href="/terms-and-conditions">Terms And Conditions</a>
-
-          </div>
-
-        </div>
-
-        {/* Map location */}
-        <div className="font-medium  ">
-
-          <div className=" flex items-center pb-3 gap-2">
-            <a className="bg-orange-500 text-white  px-6 py-3 " href="https://maps.app.goo.gl/dg88jY5rQMhFhaFn9" target="_blanck">Get Directions</a>
-            <div class=" items-center ">
+          {/* Explore links */}
+          <div className="flex flex-col text-xl font-medium text-center xl:text-left  text-black   gap">
+            <h1 className=" font-semibold">Explore</h1>
+            <div class="">
               <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
               <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
               <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
             </div>
 
+            <div className="gap-2  text-base flex flex-col">
+              <a href="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</a>
+              <a href="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</a>
+              <a href="/200-hour-yttc-50-hours-aerial-yoga">200 hours YTTC + 50 hours Aerial Yoga</a>
+              <a href="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</a>
+              <a href="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</a>
+              <a href="/100-hours-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</a>
+              <a href="/prenatal-and-postnatal-yoga-teacher-training">Prenatal and Postnatal Yoga Teacher Training</a>
+            </div>
+
           </div>
-          <iframe
-            src={iframeUrl}
-            width="350"
-            height="300"
-            style={{ border: 0 }}
-            allowfullscreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
+
+          {/* Contact Info */}
+          <div className="flex flex-col text-xl font-medium text-center xl:text-left   text-black ">
+            <h1 className=" font-semibold">Contact Info</h1>
+            <div class="">
+              <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+            </div>
+            <div className="gap-2 flex text-base flex-col">
+              <a href="tel:+91 75586 60993">+91 75586 60993</a>
+              <a href="mailto:richasingh1907@gmail.com>">richasingh1907@gmail.com</a>
+              <a href="/refund-policy">Refund Policy</a>
+              <a href="/privacy-policy">Privacy Policy</a>
+              <a href="/terms-and-conditions">Terms And Conditions</a>
+
+            </div>
+
+          </div>
+
+          {/* Map location */}
+          <div className="font-medium  flex flex-col  items-center">
+
+            <div className=" flex items-center pb-3 gap-2">
+              <a className="bg-orange-500 text-white  px-6 py-3 " href="https://maps.app.goo.gl/dg88jY5rQMhFhaFn9" target="_blanck">Get Directions</a>
+              <div class=" items-center ">
+                <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+                <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+                <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+              </div>
+
+            </div>
+            <iframe
+              src={iframeUrl}
+              width="350"
+              height="300"
+              style={{ border: 0 }}
+              allowfullscreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
+
         </div>
 
-      </div>
+        <div className="h-1 bg-white" />
 
-      <div className="h-1 bg-white" />
-      <span className="text-center mb-4 text-black  text-base sm:text-xl font-medium font-mono">
-        Copyright @8limbsYogaStudio 2023
-      </span>
+        <span className="text-center mb-4 text-black  text-base sm:text-xl font-medium font-mono">
+          Copyright @8limbsYogaStudio 2023
+        </span>
     </div>
   );
 };
