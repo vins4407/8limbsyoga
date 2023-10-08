@@ -1,6 +1,7 @@
 import LOGO from "../../../assets/mainassets/8limbsyogalogo.png";
 import { FaLinkedin } from "react-icons/fa";
 import { CiMail, CiInstagram } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -48,13 +49,13 @@ const Footer = () => {
             </div>
 
             <div className="gap-2   text-base flex flex-col">
-              <a href="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</a>
-              <a href="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</a>
-              <a href="/200+50-hour-yoga+aerial-teacher-training">200 hours YTTC + 50 hours Aerial Yoga</a>
-              <a href="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</a>
-              <a href="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</a>
-              <a href="/100-hours-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</a>
-              <a href="/prenatal-and-postnatal-yoga-teacher-training">Prenatal and Postnatal Yoga Teacher Training</a>
+              <Link to="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</Link>
+              <Link to="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</Link>
+              <Link to="/200+50-hour-yoga+aerial-teacher-training">200 hours YTTC + 50 hours Aerial Yoga</Link>
+              <Link to="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</Link>
+              <Link to="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</Link>
+              <Link to="/100-hour-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</Link>
+              <Link to="/prenatal-and-postnatal-yoga-teacher-training">Prenatal and Postnatal Yoga Teacher Training</Link>
             </div>
 
           </div>
