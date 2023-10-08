@@ -15,27 +15,21 @@ const Footer = () => {
          
           {/* Logo social */}
           <div className=" flex flex-col items-center ">
-            <img src={LOGO} className="  w-32 my-4" />
+            <img src={LOGO} className="w-32 my-4" />
 
             <div className="flex flex-row justify-evenly text-3xl  gap-4 my-4">
-              <a href="">
+              <a href="mailto:richasingh1907@gmail.com">
                 <CiMail color="black" />
               </a>
 
               <a
                 rel="noreferrer"
-                href=""
+                href="https://www.instagram.com/8limbs.yogastudio/"
                 target="_blank"
               >
                 <CiInstagram color="black" />
               </a>
-              <a
-                rel="noreferrer"
-                href=""
-                target="_blank"
-              >
-                <FaLinkedin color="black" />
-              </a>
+       
             </div>
           </div>
 
