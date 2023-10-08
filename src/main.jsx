@@ -27,7 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Route exact path="/200+50-hour-yoga+aerial-teacher-training" element={<TwoPlusFiftyHoursYoga/>}></Route>
                 <Route exact path="/50-hour-aerial-yoga-teacher-training" element={<FiFtyHoursAerialYoga/>}></Route>
                 <Route exact path="/100-hour-aerial-yoga-teacher-training" element={<HundredHoursAerialYoga/>}></Route>
-                <Route exact path="/parental-and-postnel-yoga-teacher-training" element={<ParentalYoga/>}></Route>
+                <Route exact path="/prenatal-and-postnatal-yoga-teacher-training" element={<ParentalYoga/>}></Route>
                 <Route exact path="/INDEPENDENCE-DAY-RETREAT" element={<IndependenceDayRreat/>}></Route>
                 <Route exact path="/STRESS-FREE-TRAINING" element={<StressFreeYoga/>}></Route>
                 <Route exact path="/BREATHE-AND-WORK-TRAINING" element={<BreathWorkYoga/>}></Route>

@@ -18,7 +18,7 @@ export const links = [
           sublink: [
             { name: "50 HOURS AERIAL YOGA TEACHER TRAINING", link: "/50-hour-aerial-yoga-teacher-training" },
             { name: "100 HOURS AERIAL YOGA TEACHER TRAINING", link: "/100-hour-aerial-yoga-teacher-training" },
-            { name: "PRENATAL & POSTNATAL YOGA TEACHER TRAINING", link: "/parental-and-postnel-yoga-teacher-training" },
+            { name: "PRENATAL & POSTNATAL YOGA TEACHER TRAINING", link: "/prenatal-and-postnatal-yoga-teacher-training" },
 
 
           ],
@@ -34,7 +34,7 @@ export const links = [
           Head: "yoga",
           sublink: [
             { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
-            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/parental-and-postnel-yoga-teacher-training" },
+            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/prenatal-and-postnatal-yoga-teacher-training" },
           ],
         },
                 

@@ -45,7 +45,7 @@ const NavLinks = () => {
                           <li className="text-sm text-gray-600 my-2.5">
                             <Link
                               to={slink.link}
-                              className="hover:text-primary"
+                              className="hover:text-orange-500"
                             >
                               {slink.name}
                             </Link>

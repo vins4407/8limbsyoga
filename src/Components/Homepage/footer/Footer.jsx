@@ -18,7 +18,7 @@ const Footer = () => {
 
             <div className="flex flex-row justify-evenly text-3xl  gap-4 my-4">
               <a href="">
-                <CiMail color="white" />
+                <CiMail color="black" />
               </a>
 
               <a
@@ -26,14 +26,14 @@ const Footer = () => {
                 href=""
                 target="_blank"
               >
-                <CiInstagram color="white" />
+                <CiInstagram color="black" />
               </a>
               <a
                 rel="noreferrer"
                 href=""
                 target="_blank"
               >
-                <FaLinkedin color="white" />
+                <FaLinkedin color="black" />
               </a>
             </div>
           </div>
@@ -47,10 +47,10 @@ const Footer = () => {
               <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
             </div>
 
-            <div className="gap-2  text-base flex flex-col">
+            <div className="gap-2   text-base flex flex-col">
               <a href="/100-hour-yoga-teacher-training">100 Hour Yoga Teacher Training</a>
               <a href="/200-hour-yoga-teacher-training">200 Hour Yoga Teacher Training</a>
-              <a href="/200-hour-yttc-50-hours-aerial-yoga">200 hours YTTC + 50 hours Aerial Yoga</a>
+              <a href="/200+50-hour-yoga+aerial-teacher-training">200 hours YTTC + 50 hours Aerial Yoga</a>
               <a href="/300-hour-yoga-teacher-training">300 Hours Yoga Teacher Training</a>
               <a href="/50-hours-aerial-yoga-teacher-training">50 Hours Aerial Yoga Teacher Training</a>
               <a href="/100-hours-aerial-yoga-teacher-training">100 Hours Aerial Yoga Teacher Training</a>
