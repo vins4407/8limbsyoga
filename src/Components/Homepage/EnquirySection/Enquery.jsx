@@ -17,15 +17,17 @@ function Enquery() {
 
                 </h1>
 
-                <div className='flex py-10 gap-5'>
-                    <button href="https://wa.link/z3apxg" class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden 
-                                    bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105
-                                     hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full 
-                                     before:bg-gradient-to-r before:from-orange-500 before:to-orange-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] 
-                                     before:rounded-[50px] hover:before:left-0">
-                        Whatsapp
-                    </button>
-                    <div>
+                <div className='flex flex-col md:flex-row py-10 gap-5'>
+                    <a href="https://wa.link/z3apxg">
+                        <button  class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden
+                                        bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105
+                                         hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full
+                                         before:bg-gradient-to-r before:from-orange-500 before:to-orange-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1]
+                                         before:rounded-[50px] hover:before:left-0">
+                            Whatsapp
+                        </button>
+                    </a>
+                    <div >
                         <p>Support Number</p>
                         <a className='text-2xl text-orange-500 font-bold' href='tel:+91 75586 60993'>+91 75586 60993</a>
                     </div>
