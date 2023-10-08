@@ -1,7 +1,19 @@
 import React from 'react'
 import { CardDefault } from './card'
+import cardimg from "../../../assets/yoga4.jpg"
 
 
+
+const cardData = [
+    {
+      title: '100 Hours Yoga Teacher Training',
+      description: 'A comprehensive program for aspiring yoga teachers...',
+      image: 'image1.jpg', // Replace with your image URL
+      link: '/100-hour-yoga-teacher-training',
+    },
+    // Add more card data as needed
+  ];
+  
 function CardsSection() {
     return (
         <div className="flex flex-col  justify-center py-10  pb-40 p-5  gap-16" >

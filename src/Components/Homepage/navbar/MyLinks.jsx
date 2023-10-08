@@ -37,10 +37,7 @@ export const links = [
             { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/parental-and-postnel-yoga-teacher-training" },
           ],
         },
-        
-
-        
-        
+                
       ],
     },
     {

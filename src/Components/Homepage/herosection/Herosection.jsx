@@ -5,7 +5,6 @@ import slider1 from "../../../assets/mainassets/slider1.webp"
 import slider2 from "../../../assets/mainassets/slider2.webp"
 import slider3 from "../../../assets/mainassets/slider3.webp"
 import slider4 from "../../../assets/mainassets/slider4.webp"
-import Logo from "../../../assets/mainassets/8limbsyogalogo.png";
 import Navbar from "../navbar/Navbar";
 
 function Herosection() {
@@ -18,10 +17,7 @@ function Herosection() {
         <div className="top-0 w-full absolute">
           <Navbar />
         </div>
-        <div className=" w-44 xl:w-1/2   z-10 absolute  flex flex-col  place-content-center items-center	 justify-center ">
-          <img src={Logo} alt="logo" className="md:cursor-pointer  backdrop-blur-sm rounded-xl " />
-          <h1 className=' text-center text-xl xl:text-4xl text-white font-medium '> Dive into the depth of yoga with us</h1>
-        </div>
+ 
 
         <Carousel
           className="   "

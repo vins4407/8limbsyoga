@@ -6,14 +6,18 @@ import {
     Typography,
     Button,
   } from "@material-tailwind/react";
-import cardimg from "../../../assets/hero2.jpg"
+import cardimg from "../../../assets/yoga4.jpg"
 import stars from "../../../assets/4star.png"
 
+
   export function CardDefault() {
+
+
     return (
       <Card className="mt-6 w-96 bg-[#f1ece0ff]">
-        <CardHeader color="blue-gray" className="relative h-56">
+        <CardHeader color="blue-gray" className="relative  h-56">
           <img
+          class="  object-bottom	"
           src={cardimg}
             alt="card-image"
           />
@@ -31,8 +35,8 @@ import stars from "../../../assets/4star.png"
 
           </Typography>
         </CardBody>
-        <CardFooter className="pt-0">
-          <Button>Read More</Button>
+        <CardFooter  className="pt-0">
+          <a href="/100-hour-yoga-teacher-training"><Button >Read More</Button></a>
         </CardFooter>
       </Card>
     );
