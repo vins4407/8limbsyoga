@@ -4,8 +4,8 @@ import { CardDefault } from './card'
 
 function CardsSection() {
     return (
-        <div className="flex flex-col  justify-center py-10  pb-40  gap-16" >
-            <div className=' xl:pt-24  xl:px-80 px-4 xl:pl-80 '>
+        <div className="flex flex-col  justify-center py-10  pb-40 p-5  gap-16" >
+            <div className=' 3xl:pt-24  3xl:px-80 px-5  '>
 
                 <h1 className=' text-5xl font-semibold  pb-8'>
                     Transform Your Life with Authentic & Premium Yoga Teacher Training at<h1 className=' text-orange-500'> 8 Limbs Yoga Studio</h1>
@@ -27,7 +27,7 @@ function CardsSection() {
             </div>
 
 
-            <div className='flex flex-wrap justify-center xl:px-40 gap-8'>
+            <div className='flex flex-wrap justify-center 3xl:px-40 gap-8'>
 
                 <CardDefault />
                 <CardDefault />

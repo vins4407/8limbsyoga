@@ -1,12 +1,13 @@
 import React from 'react'
-import NavComponent from '../100HoursYogaTraining/NavComponent/NavComponent'
+import NavComponent from '../Components/100HoursYogaTraining/NavComponent/NavComponent'
 
-import slider1 from "../../assets/mainassets/slider3.webp"
-import yogapose from '../../assets/mainassets/yoga-illustration.png'
-import BookingForm from '../Comman/BookingForm'
-import Enquery from '../Homepage/EnquirySection/Enquery'
-import Footer from '../Homepage/footer/Footer'
-import CourseInfoTwo from './CourseInfoTwo'
+import slider1 from "../assets/mainassets/slider3.webp"
+import yogapose from '../assets/mainassets/yoga-illustration.png'
+import BookingForm from '../Components/Comman/BookingForm'
+import Enquery from '../Components/Homepage/EnquirySection/Enquery'
+import Footer from '../Components/Homepage/footer/Footer'
+import CourseInfoTwo from '../Components/200HoursYogaTraining/CourseInfoTwo'
+import Accomodation from '../Components/Comman/Accomodation'
 function TwoHundredHoursYoga() {
     return (
 
@@ -25,6 +26,7 @@ function TwoHundredHoursYoga() {
             <div className='relative pb-10'>
                 <Enquery/>
             </div>
+            <Accomodation/>
 
             <Footer />
         </>

@@ -8,17 +8,17 @@ export const links = [
           sublink: [
             { name: "100 HOURS YOGA TEACHER TRAINING", link: "/100-hour-yoga-teacher-training" },
             { name: "200 HOURS YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
-            { name: "300 HOURS YOGA TEACHER TRAINING", link: "/" },
-            { name: "200 HOURS + 50 HRS AERIAL YOGA TEACHER TRAINING", link: "/" },
+            { name: "300 HOURS YOGA TEACHER TRAINING", link: "/300-hour-yoga-teacher-training" },
+            { name: "200 HOURS + 50 HRS AERIAL YOGA TEACHER TRAINING", link: "/200+50-hour-yoga+aerial-teacher-training" },
           
           ],
         },
         {
           Head: "Aerial Training",
           sublink: [
-            { name: "50 HOURS AERIAL YOGA TEACHER TRAINING", link: "/" },
-            { name: "100 HOURS AERIAL YOGA TEACHER TRAINING", link: "/" },
-            { name: "PRENATAL & POSTNATAL YOGA TEACHER TRAINING", link: "/" },
+            { name: "50 HOURS AERIAL YOGA TEACHER TRAINING", link: "/50-hour-aerial-yoga-teacher-training" },
+            { name: "100 HOURS AERIAL YOGA TEACHER TRAINING", link: "/100-hour-aerial-yoga-teacher-training" },
+            { name: "PRENATAL & POSTNATAL YOGA TEACHER TRAINING", link: "/parental-and-postnel-yoga-teacher-training" },
 
 
           ],
@@ -33,8 +33,8 @@ export const links = [
         {
           Head: "yoga",
           sublink: [
-            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/" },
-            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/" },
+            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
+            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/parental-and-postnel-yoga-teacher-training" },
           ],
         },
         
@@ -50,10 +50,10 @@ export const links = [
         {
           Head: "Special Training",
           sublink: [
-            { name: "INDEPENDENCE DAY RETREAT", link: "/" },
-            { name: "STRESS-FREE TRAINING", link: "/" },
-            { name: "BREATHE AND WORK TRAINING", link: "/" },
-            { name: "MINDFULLNESS TRAINING", link: "/" },
+            { name: "INDEPENDENCE DAY RETREAT", link: "/INDEPENDENCE-DAY-RETREAT" },
+            { name: "STRESS-FREE TRAINING", link: "/STRESS-FREE-TRAINING" },
+            { name: "BREATHE AND WORK TRAINING", link: "/BREATHE-AND-WORK-TRAINING" },
+            { name: "MINDFULLNESS TRAINING", link: "/MINDFULLNESS-TRAINING" },
 
  
           ],

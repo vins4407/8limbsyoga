@@ -12,9 +12,9 @@ function Experience() {
             <div className='z-10 w-full h-10 absolute -top-8  bg-pageJoint  bg-repeat-x bg-contain'/>
                     
 
-            <div className='flex  flex-col backdrop-blur-[2px] p-10 place-items-center items-center '>
+            <div className='flex p-5  flex-col backdrop-blur-[2px]  place-items-center items-center '>
             
-                <div className='  xl:px-64   px-4  gap-y-10 '>
+                <div className='  3xl:px-80   px-4  gap-y-10 '>
                     <h1 className=' text-5xl font-semibold  pb-8'>
                         8 Limbs Yoga: <h1 className=' text-orange-500'>Where your yoga journey begins</h1>
                     </h1>
@@ -27,8 +27,8 @@ function Experience() {
                     <div className='  overflow-hidden '>
                         <img  className='transition  duration-300  xl:w-[30rem] ease-in-out hover:scale-110' src={yoga1} />
                     </div>
-                    <div className='flex flex-col gap-4'>
-                        <div className='flex gap-4 flex-col xl:flex-row' >
+                    <div className='flex flex-col flex-wrap gap-4'>
+                        <div className='flex flex-wrap  gap-4 flex-col md:flex-row ' >
                             <div class=" rounded-xl   border border-orange-500    overflow-hidden bg-cover bg-no-repeat">
                                 <img
                                     src={yoga2}
@@ -43,7 +43,7 @@ function Experience() {
                             </div>
                         </div>
             
-                        <div className='flex gap-4 flex-col xl:flex-row'>
+                        <div className='flex gap-4 flex-col md:flex-row'>
                             <div class=" rounded-xl   border border-orange-500    overflow-hidden bg-cover bg-no-repeat">
                                 <img
                                     src={yoga4}

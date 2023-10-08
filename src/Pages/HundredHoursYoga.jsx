@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../Homepage/footer/Footer'
-import slider1 from "../../assets/mainassets/slider2.webp"
-import yogapose from '../../assets/mainassets/yoga-illustration.png'
-import NavComponent from './NavComponent/NavComponent';
-import Enquery from '../Homepage/EnquirySection/Enquery';
-import CourseInfoOne from './CourseInfo/CourseInfo';
-import BookingForm from '../Comman/BookingForm';
+import Footer from '../Components/Homepage/footer/Footer'
+import slider1 from "../assets/mainassets/slider2.webp"
+import yogapose from '../assets/mainassets/yoga-illustration.png'
+import NavComponent from '../Components/100HoursYogaTraining/NavComponent/NavComponent';
+import Enquery from '../Components/Homepage/EnquirySection/Enquery';
+import CourseInfoOne from '../Components/100HoursYogaTraining/CourseInfo/CourseInfo';
+import BookingForm from '../Components/Comman/BookingForm';
 
 export default function HundredHoursYoga() {
   return (
