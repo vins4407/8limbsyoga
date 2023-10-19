@@ -9,7 +9,7 @@ const Footer = () => {
 
   return (
     <div id="footer" className="bg-[#f1ece0ff]  relative bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6">
-        <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />
+        <div className='z-10 w-full h-10 absolute -top-10 bg-pageJoint  bg-repeat-x  bg-contain' />
 
         <div className="  flex flex-col xl:flex-row justify-center md:justify-around   ">
          

@@ -8,7 +8,6 @@ import {
     CardBody,
     CardFooter,
     Typography,
-    Button,
 } from "@material-tailwind/react";
 import { Link } from 'react-router-dom';
 
@@ -57,7 +56,7 @@ const cardData = [
 
 const CardDefault = ({ title, description, image, link }) => {
     return (
-        <Card className="mt-6 w-96 bg-[#f1ece0ff]">
+        <Card className="mt-6 w-96 ] bg-neutral-800 hover:brightness-90   hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
             <CardHeader color="blue-gray" className="relative  h-56">
                 <img
                     class="  object-bottom	"
@@ -123,7 +122,7 @@ function CardsSection() {
                     <CardDefault key={index} {...card} />
                 ))}
 
-
+                
 
             </div>
         </div>

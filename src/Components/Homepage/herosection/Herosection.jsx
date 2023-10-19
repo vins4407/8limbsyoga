@@ -43,22 +43,22 @@ function Herosection() {
           <img
             src={slider1}
             alt="image 1"
-            className=" brightness-75  h-[48rem] w-full  object-cover "
+            className=" brightness-75  h-[58rem] w-full  object-cover "
           />
           <img
             src={slider2}
             alt="image 2"
-            className=" brightness-75 h-[48rem] w-full object-cover"
+            className=" brightness-75 h-[58rem] w-full object-cover"
           />
           <img
             src={slider3}
             alt="image 3"
-            className=" brightness-75 h-[48rem] w-full object-cover"
+            className=" brightness-75 h-[58rem] w-full object-cover"
           />
           <img
             src={slider4}
             alt="image 3"
-            className="brightness-75 h-[48rem] w-full object-cover "
+            className="brightness-75 h-[58rem] w-full object-cover "
           />
 
         </Carousel>
