@@ -5,7 +5,7 @@ import NavLinks from "./NavLinks";
 import {IoIosCloseCircleOutline} from "react-icons/io"
 import {TiThMenu} from "react-icons/ti"
 import Button from "./Button";
-import bgFloral2 from '/home/vinayak1506/Desktop/yogastudio/src/assets/mainassets/imgbin_floral-design-green-flower-png.png'
+import bgFloral2 from '../../../assets/mainassets/imgbin_floral-design-green-flower-png.png'
 
 
 
