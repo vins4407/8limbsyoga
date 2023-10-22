@@ -8,11 +8,11 @@ import yoga5 from "../../../assets/yoga5.jpeg"
 function Experience() {
     return (
         
-        <div className='  bg-bg-pattern5  bg-opacity-20 bg-no-repeat  bg-cover backdrop-blur-[2px] bg-right   relative  '>
+        <div className='    relative  '>
             <div className='z-10 w-full h-10 absolute -top-8  bg-pageJoint  bg-repeat-x bg-contain'/>
                     
 
-            <div className='flex p-5  flex-col backdrop-blur-[2px]  place-items-center items-center '>
+            <div className='flex py-20  flex-col backdrop-blur-[2px]  place-items-center items-center '>
             
                 <div className='  3xl:px-80   px-4  gap-y-10 '>
                     <h1 className=' text-5xl font-semibold  pb-8'>

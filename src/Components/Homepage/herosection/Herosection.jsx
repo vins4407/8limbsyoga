@@ -6,6 +6,10 @@ import slider2 from "../../../assets/mainassets/slider2.webp"
 import slider3 from "../../../assets/mainassets/slider3.webp"
 import slider4 from "../../../assets/mainassets/slider4.webp"
 import Navbar from "../navbar/Navbar";
+import Logo from "../../../assets/mainassets/8limbsyogalogo.png";
+import bgFloral1 from '../../..//assets/mainassets/floral-design-307132_1280.png'
+import bgFloral2 from '/home/vinayak1506/Desktop/yogastudio/src/assets/mainassets/imgbin_floral-design-green-flower-png.png'
+import bgFloral3 from '/home/vinayak1506/Desktop/yogastudio/src/assets/mainassets/imgbin_floral-design-vignette-flower-png.png'
 
 function Herosection() {
 
@@ -14,8 +18,14 @@ function Herosection() {
     <>
       <div className=" relative  flex justify-center items-center ">
 
-        <div className="top-0 w-full absolute">
+        <div className="top-0 w-full  absolute">
           <Navbar />
+        </div>
+        <div className=" w-44 xl:w-1/2   z-10 absolute  flex flex-col  place-content-center items-center	 justify-center ">
+          <h1 className=' text-center text-xl xl:text-5xl text-white font-bold  font-serif'> Transform Your Health </h1>
+          <h1  className=' text-center text-xl  text-white font-bold  font-manrope' >Nurture Your Mind, Body, and Soul with...</h1>
+          <img src={Logo} alt="logo" className="md:cursor-pointer  rounded-xl " />
+
         </div>
  
 
@@ -36,8 +46,9 @@ function Herosection() {
             </div>
           )}
           autoplay={true}
-          autoplayDelay={5000}
+          autoplayDelay={8000}
           loop={true}
+          
         >
 
           <img

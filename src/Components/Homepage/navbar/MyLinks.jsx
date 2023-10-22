@@ -41,25 +41,19 @@ export const links = [
       ],
     },
     {
-      name: "Retreat Courses",
+      name: "Workshop",
       submenu: true,
       sublinks: [
         {
-          Head: "Special Training",
+          Head: "yoga",
           sublink: [
-            { name: "INDEPENDENCE DAY RETREAT", link: "/INDEPENDENCE-DAY-RETREAT" },
-            { name: "STRESS-FREE TRAINING", link: "/STRESS-FREE-TRAINING" },
-            { name: "BREATHE AND WORK TRAINING", link: "/BREATHE-AND-WORK-TRAINING" },
-            { name: "MINDFULLNESS TRAINING", link: "/MINDFULLNESS-TRAINING" },
-
- 
+            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
+            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/prenatal-and-postnatal-yoga-teacher-training" },
           ],
         },
-        
-        
-       
-        
-  
+                
       ],
     },
+  
+    
   ];
