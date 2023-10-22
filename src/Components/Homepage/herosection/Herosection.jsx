@@ -7,10 +7,6 @@ import slider3 from "../../../assets/mainassets/slider3.webp"
 import slider4 from "../../../assets/mainassets/slider4.webp"
 import Navbar from "../navbar/Navbar";
 import Logo from "../../../assets/mainassets/8limbsyogalogo.png";
-import bgFloral1 from '../../..//assets/mainassets/floral-design-307132_1280.png'
-import bgFloral2 from '/home/vinayak1506/Desktop/yogastudio/src/assets/mainassets/imgbin_floral-design-green-flower-png.png'
-import bgFloral3 from '/home/vinayak1506/Desktop/yogastudio/src/assets/mainassets/imgbin_floral-design-vignette-flower-png.png'
-
 function Herosection() {
 
 

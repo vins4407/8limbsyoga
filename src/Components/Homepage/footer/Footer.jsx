@@ -1,5 +1,4 @@
 import LOGO from "../../../assets/mainassets/8limbsyogalogo_black.png";
-import { FaLinkedin } from "react-icons/fa";
 import { CiMail, CiInstagram } from "react-icons/ci";
 import { Link } from "react-router-dom";
 

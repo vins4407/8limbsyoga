@@ -1,5 +1,4 @@
 import React from 'react'
-import stars from "../../../assets/4star.png"
 
 import cardimg from "../../../assets/yoga4.jpg"
 import {
