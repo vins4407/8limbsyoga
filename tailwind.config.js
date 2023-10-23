@@ -18,6 +18,8 @@ module.exports = withMT({
         },  
         backgroundImage: {
           'pageJoint'  : "url('assets/mainassets/pageJoint.png')",
+          'floralbg'  : "url('assets/mainassets/bgfloral.jpg')",
+
         },
         screens: {
           '3xl': '1700px',

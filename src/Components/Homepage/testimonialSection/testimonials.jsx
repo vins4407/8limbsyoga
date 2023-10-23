@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Carousel } from "@material-tailwind/react";
+import stars from '../../../assets/mainassets/5_stars.png'
 
 
 const testimonialData = [
@@ -60,17 +62,16 @@ const TestimonialCard = ({ name, description, image }) => {
       </div>
     </div>
 
-
   );
 }
 
 export function Testimonials() {
   return (
-    <div class="min-w-screen min-h-screen bg-[#f1ece0ff] p-5  flex items-center justify-center py-5">
-      <div class="w-full bg-white border-t border-b  px-5 py-16 md:py-24 text-gray-800">
-        <div class="w-full max-w-6xl mx-auto">
-          <div class="text-center max-w-xl mx-auto">
-            <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people <br />are saying.</h1>
+  
+        <section className=' flex flex-col  py-40  justify-center  '>
+
+          <div class="text-center  mx-auto">
+            <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people are saying.</h1>
             <h3 class="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
             <div class="text-center mb-10">
               <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
@@ -80,15 +81,31 @@ export function Testimonials() {
               <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
             </div>
           </div>
-          <div class="flex flex-wrap justify-center 3xl: gap-8">
-            {testimonialData.map((card, index) => (
-              <TestimonialCard key={index} {...card}/>
 
-            ))}
-            
+
+
+          <div className='  h-fit  w-[20rem] xl:px-80 md:w-fit '>
+            <Carousel transition={{ duration: 2 }} className=" bg-[#dae1efff] text-[#17543eff] font-bold rounded-xl">  
+  
+                <span className='justify-center items-center flex flex-col  pt-5'>
+                   <img className='w-40 z-30 ' src={stars}/>
+                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
+                </span>
+                <span className='justify-center items-center flex flex-col  pt-5'>
+                   <img className='w-40 z-30 ' src={stars}/>
+                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
+                </span>
+                <span className='justify-center items-center flex flex-col  pt-5'>
+                   <img className='w-40 z-30 ' src={stars}/>
+                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
+                </span>
+
+            </Carousel>
           </div>
-        </div>
-      </div>
-    </div>
+        </section>
+   
   );
 }

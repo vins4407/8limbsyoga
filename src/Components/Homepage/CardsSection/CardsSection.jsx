@@ -1,4 +1,5 @@
 import React from 'react'
+import stars from "../../../assets/mainassets/5_stars.png"
 
 import cardimg from "../../../assets/yoga4.jpg"
 import {
@@ -67,15 +68,18 @@ const CardDefault = ({ title, description, image, link }) => {
                 <Typography variant="h5" color="blue-gray" className="mb-2">
                     {title}
                 </Typography>
-             
+                <img className=" h-8 pb-2"
+                    src={stars}
+                    alt="card-image"
+                />
                 <Typography>
                     {description}
                 </Typography>
             </CardBody>
-            <CardFooter className="pt-0">
+            <CardFooter className="pt-0 flex  ">
                 <Link to={link}>
                     <button class="relative py-2 px-8 text-black text-base font-bold uppercase rounded-[50px] overflow-hidden 
-      bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105
+      bg-white transition-all duration-400 ease-in-out shadow-md hover:scale-105 border-orange-500  border-[1px]
        hover:text-white hover:shadow-lg active:scale-90 before:absolute before:top-0 before:-left-full before:w-full before:h-full 
        before:bg-gradient-to-r before:from-orange-500 before:to-orange-300 before:transition-all before:duration-500 before:ease-in-out before:z-[-1] 
        before:rounded-[50px]   {

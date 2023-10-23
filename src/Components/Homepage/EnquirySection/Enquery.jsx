@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from '../navbar/Button'
-import yogapose from "../../../assets/yoga-pose.png"
+import yogapose from "../../../assets/mainassets/yogaorange.png"
 function Enquery() {
     return (
-        <div className='flex flex-col  place-items-center pt-32 px-10 md:px-20 3xl:px-80  xl:flex-row'>
+        <div className='flex flex-col  bg-[#f9f5ecff] place-items-center py-24 px-10 md:px-20 3xl:px-80  xl:flex-row'>
             <div className='  flex-1 '>
 
                 <h1 className=' text-5xl font-semibold  pb-8'>

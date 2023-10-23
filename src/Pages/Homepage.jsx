@@ -29,8 +29,8 @@ function Homepage() {
     
       <CardsSection />
       <Experience />
-      <Enquery />
       <Testimonials />
+      <Enquery />
       <Footer />
       <div class="fixed bottom-10 right-10 z-50">
         <a href="https://wa.link/xgp0gf" target="_blank">
