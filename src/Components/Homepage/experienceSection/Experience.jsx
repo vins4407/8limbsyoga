@@ -24,7 +24,7 @@ function Experience() {
                 </h1>
             </div>
             <div className=' flex place-items-center pt-10 flex-col xl:flex-row   gap-20  '>
-                <div className='  overflow-hidden backdrop-blur-lg rounded-full '>
+                <div className=' bg-white overflow-hidden backdrop-blur-lg rounded-full '>
                     <img  className='transition  duration-300  xl:w-[30rem] ease-in-out hover:scale-110' src={yoga1} />
                 </div>
                 <div className='flex flex-col flex-wrap gap-4'>

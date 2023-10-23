@@ -26,31 +26,31 @@ export const links = [
        
       ],
     },
-    {
-      name: "Online Courses",
-      submenu: true,
-      sublinks: [
-        {
-          Head: "yoga",
-          sublink: [
-            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
-            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/prenatal-and-postnatal-yoga-teacher-training" },
-          ],
-        },
-                
-      ],
-    },
+
     {
       name: "Workshop",
       submenu: true,
       sublinks: [
         {
-          Head: "yoga",
           sublink: [
-            { name: "200 HOURS ONLINE YOGA TEACHER TRAINING", link: "/200-hour-yoga-teacher-training" },
-            { name: "PRENATAL & POSTNATAL ONLINE YOGA TEACHER TRAINING", link: "/prenatal-and-postnatal-yoga-teacher-training" },
+            { name: "BRAIN BODY CONNECT WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "SPINE AWARENESS AND CARE WORKSHOP", link: "/prenatal-and-postnatal-yoga-teacher-training" },
+            { name: "YOGA FOR STRESS AND ANXIETY", link: "/200-hour-yoga-teacher-training" },
+            { name: "FACE YOGA WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "POWER OF BREATHING WORKSHOP", link: "/200-hour-yoga-teacher-training" },
           ],
         },
+
+        {
+          sublink:[
+
+            { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "MUDRA WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "YOGA WITH BLOCK AND OTHER PROPS", link: "/200-hour-yoga-teacher-training" },
+            { name: "SOUND HEALING WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+
+          ]
+        }
                 
       ],
     },

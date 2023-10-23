@@ -67,45 +67,46 @@ const TestimonialCard = ({ name, description, image }) => {
 
 export function Testimonials() {
   return (
-  
-        <section className=' flex flex-col  py-40  justify-center  '>
 
-          <div class="text-center  mx-auto">
-            <h1 class="text-6xl md:text-7xl font-bold mb-5 text-gray-600">What people are saying.</h1>
-            <h3 class="text-xl mb-5 font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-            <div class="text-center mb-10">
-              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
-              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-              <span class="inline-block w-40 h-1 rounded-full bg-orange-500"></span>
-              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
-            </div>
-          </div>
+    <section className=' flex flex-col  py-40  justify-center  items-center '>
 
+      <div class="text-center  mx-auto">
+        <h1 class="text-4xl md:text-7xl font-bold mb-5 text-gray-600">What people are saying.</h1>
+        <div class="text-center mb-10">
+          <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+          <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+          <span class="inline-block w-40 h-1 rounded-full bg-orange-500"></span>
+          <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+          <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+        </div>
+      </div>
 
 
-          <div className='  h-fit  w-[20rem] xl:px-80 md:w-fit '>
-            <Carousel transition={{ duration: 2 }} className=" bg-[#dae1efff] text-[#17543eff] font-bold rounded-xl">  
-  
-                <span className='justify-center items-center flex flex-col  pt-5'>
-                   <img className='w-40 z-30 ' src={stars}/>
-                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
-                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
-                </span>
-                <span className='justify-center items-center flex flex-col  pt-5'>
-                   <img className='w-40 z-30 ' src={stars}/>
-                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
-                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
-                </span>
-                <span className='justify-center items-center flex flex-col  pt-5'>
-                   <img className='w-40 z-30 ' src={stars}/>
-                  <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
-                  <h1 className=' text-center  py-10 '>- Michael W.</h1>
-                </span>
 
-            </Carousel>
-          </div>
-        </section>
-   
+      <div className='  h-fit  w-[20rem] xl:px-80 md:w-fit   '>
+        <Carousel transition={{ duration: 1 }} autoplay={true}
+          autoplayDelay={8000}
+          loop={true} className=" bg-[#dae1efff] text-[#17543eff] font-bold rounded-xl">
+
+          <span className='justify-center items-center flex flex-col  pt-5'>
+            <img className='w-40 z-30 ' src={stars} />
+            <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+            <h1 className=' text-center  py-10 '>- Michael W.</h1>
+          </span>
+          <span className='justify-center items-center flex flex-col  pt-5'>
+            <img className='w-40 z-30 ' src={stars} />
+            <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+            <h1 className=' text-center  py-10 '>- Michael W.</h1>
+          </span>
+          <span className='justify-center items-center flex flex-col  pt-5'>
+            <img className='w-40 z-30 ' src={stars} />
+            <h1 className=' text-center  px-20 pt-10 '>"I was feeling really stressed and overwhelmed at work, and I didn\'t know what to do. I decided to try yoga at 8 Limbs Yoga, and it\'s been a lifesaver. The yoga classes help me to relax and de-stress, and I always leave feeling refreshed and energized. I highly recommend 8 Limbs Yoga to anyone who is feeling stressed or overwhelmed."</h1>
+            <h1 className=' text-center  py-10 '>- Michael W.</h1>
+          </span>
+
+        </Carousel>
+      </div>
+    </section>
+
   );
 }

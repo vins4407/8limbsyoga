@@ -14,11 +14,11 @@ function Herosection() {
     <>
       <div className=" relative  flex justify-center items-center ">
 
-        <div className="top-0 w-full  absolute">
+        <div className="top-0 w-full   absolute">
           <Navbar />
         </div>
-        <div className=" w-44 xl:w-1/2   z-10 absolute  flex flex-col  place-content-center items-center	 justify-center ">
-          <h1 className=' text-center text-xl xl:text-5xl text-white font-bold  font-serif'> Transform Your Health </h1>
+        <div className=" w-44  xl:w-1/2   z-10 absolute  flex flex-col   items-center	 justify-center ">
+          <h1 className=' mt-20 text-center text-xl xl:text-5xl text-white font-bold  font-serif'> Transform Your Health </h1>
           <h1  className=' text-center text-xl  text-white font-bold  font-manrope' >Nurture Your Mind, Body, and Soul with...</h1>
           <img src={Logo} alt="logo" className="md:cursor-pointer  rounded-xl " />
 
@@ -50,22 +50,22 @@ function Herosection() {
           <img
             src={slider1}
             alt="image 1"
-            className=" brightness-75  h-[58rem] w-full  object-cover "
+            className=" brightness-75   h-[35rem]  xl:h-[58rem] w-full  object-cover "
           />
           <img
             src={slider2}
             alt="image 2"
-            className=" brightness-75 h-[58rem] w-full object-cover"
+            className=" brightness-75  h-[35rem]  xl:h-[58rem] w-full object-cover"
           />
           <img
             src={slider3}
             alt="image 3"
-            className=" brightness-75 h-[58rem] w-full object-cover"
+            className=" brightness-75  h-[35rem]  xl:h-[58rem] w-full object-cover"
           />
           <img
             src={slider4}
             alt="image 3"
-            className="brightness-75 h-[58rem] w-full object-cover "
+            className="brightness-75  h-[35rem]  xl:h-[58rem] w-full object-cover "
           />
 
         </Carousel>

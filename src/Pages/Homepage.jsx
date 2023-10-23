@@ -32,7 +32,7 @@ function Homepage() {
       <Testimonials />
       <Enquery />
       <Footer />
-      <div class="fixed bottom-10 right-10 z-50">
+      <div class="fixed bottom-5 right-5 z-50">
         <a href="https://wa.link/xgp0gf" target="_blank">
           <div class="bg-green-500 text-white p-4 rounded-full flex items-center justify-center transition duration-300 hover:bg-green-600">
             <AiOutlineWhatsApp class=" text-4xl" />
@@ -40,7 +40,7 @@ function Homepage() {
         </a>
       </div>
 
-      <div class="fixed bottom-10 left-10 z-50">
+      <div class="fixed bottom-5 left-5  z-50">
         <a href="https://wa.link/xgp0gf" target="_blank">
           <div class="bg-orange-500 text-whirete p-4 rounded-full flex items-center justify-center transition duration-300 hover:text-white hover:bg-[#17543eff]">
             Call Us!

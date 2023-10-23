@@ -32,6 +32,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
                 <Route exact path="/STRESS-FREE-TRAINING" element={<StressFreeYoga/>}></Route>
                 <Route exact path="/BREATHE-AND-WORK-TRAINING" element={<BreathWorkYoga/>}></Route>
                 <Route exact path="/MINDFULLNESS-TRAINING" element={<MindfullnessYoga/>}></Route>
+                {/* <Route exact path="/BRAIN-BODY-CONNECT-WORKSHOP" element={<BrainBodyConnectYoga/>}></Route>
+                <Route exact path="/SPINE-AWARENESS-AND-CARE-WORKSHOP" element={<SpineAwarenessYoga/>}></Route>
+                <Route exact path="/YOGA-FOR-STRESS-AND-ANXIETY" element={<StressAnxietyYoga/>}></Route>
+                <Route exact path="/FACE-YOGA-WORKSHOP" element={<FaceYoga/>}></Route>
+                <Route exact path="/POWER-OF-BREATHING-WORKSHOP" element={<BreathingYoga/>}></Route>
+                <Route exact path="/GUT-AND-BRAIN-CONNECT-WORKSHOP" element={<GutBrainYoga/>}></Route>
+                <Route exact path="/MUDRA-WORKSHOP" element={<MudraYoga/>}></Route>
+
+                <Route exact path="/YOGA-WITH-BLOCK-AND-OTHER-PROPS" element={<BlockAndPropsYoga/>}></Route>
+                <Route exact path="/SOUND-HEALING-WORKSHOP" element={<SoundHealingYoga/>}></Route> */}
 
             </Routes>
     </BrowserRouter>

@@ -103,7 +103,7 @@ function CardsSection() {
           <h1 className=' text-center text-xl xl:text-5xl text-[#17543eff] font-bold  font-serif'> Featured Courses </h1>
 
 
-            <div className='flex flex-wrap justify-center 3xl:px-40 gap-8'>
+            <div className='flex flex-wrap justify-center px-5 3xl:px-40 gap-8'>
                 {cardData.map((card, index) => (
                     <CardDefault key={index} {...card} />
                 ))}
