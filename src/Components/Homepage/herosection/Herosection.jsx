@@ -7,6 +7,7 @@ import slider3 from "../../../assets/mainassets/slider3.webp"
 import slider4 from "../../../assets/mainassets/slider4.webp"
 import Navbar from "../navbar/Navbar";
 import Logo from "../../../assets/mainassets/8limbsyogalogo.png";
+
 function Herosection() {
 
 

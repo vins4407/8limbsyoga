@@ -33,21 +33,21 @@ export const links = [
       sublinks: [
         {
           sublink: [
-            { name: "BRAIN BODY CONNECT WORKSHOP", link: "/200-hour-yoga-teacher-training" },
-            { name: "SPINE AWARENESS AND CARE WORKSHOP", link: "/prenatal-and-postnatal-yoga-teacher-training" },
-            { name: "YOGA FOR STRESS AND ANXIETY", link: "/200-hour-yoga-teacher-training" },
-            { name: "FACE YOGA WORKSHOP", link: "/200-hour-yoga-teacher-training" },
-            { name: "POWER OF BREATHING WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "BRAIN BODY CONNECT WORKSHOP", link: "/BRAIN-BODY-CONNECT-WORKSHOP" },
+            { name: "SPINE AWARENESS AND CARE WORKSHOP", link: "/SPINE-AWARENESS-AND-CARE-WORKSHOP" },
+            { name: "YOGA FOR STRESS AND ANXIETY", link: "/YOGA-FOR-STRESS-AND-ANXIETY" },
+            { name: "FACE YOGA WORKSHOP", link: "/FACE-YOGA-WORKSHOP" },
+            { name: "POWER OF BREATHING WORKSHOP", link: "/POWER-OF-BREATHING-WORKSHOP" },
           ],
         },
 
         {
           sublink:[
 
-            { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/200-hour-yoga-teacher-training" },
-            { name: "MUDRA WORKSHOP", link: "/200-hour-yoga-teacher-training" },
-            { name: "YOGA WITH BLOCK AND OTHER PROPS", link: "/200-hour-yoga-teacher-training" },
-            { name: "SOUND HEALING WORKSHOP", link: "/200-hour-yoga-teacher-training" },
+            { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/GUT-AND-BRAIN-CONNECT-WORKSHOP" },
+            { name: "MUDRA WORKSHOP", link: "/MUDRA-WORKSHOP" },
+            { name: "YOGA WITH BLOCK AND OTHER PROPS", link: "/YOGA-WITH-BLOCK-AND-OTHER-PROPS" },
+            { name: "SOUND HEALING WORKSHOP", link: "/SOUND-HEALING-WORKSHOP" },
 
           ]
         }

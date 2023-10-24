@@ -12,7 +12,7 @@ import bgFloral2 from '../../../assets/mainassets/imgbin_floral-design-green-flo
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className=" bg-white text-black   " style={{ zIndex: 1000, position: 'relative'  }}>
+    <nav className=" bg-white text-black    overflow-x-clip  " style={{ zIndex: 1000, position: 'relative'  }}>
 
       {/* <img src={bgFloral3} className='absolute w-16 2xl:w-36 z-10 -top-4 -left-6 rotate-[-75deg]'></img> */}
       <img src={bgFloral2} className='absolute w-16 2xl:w-36 z-0 left-0   -top-16 rotate-[90deg]  transform -scale-x-100'></img>
@@ -40,7 +40,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div className="md:block hidden">
-          <Button />
+          <Button title={"JOIN US"}  />
         </div>
         {/* Mobile nav */}
         <ul

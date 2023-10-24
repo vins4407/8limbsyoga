@@ -9,8 +9,8 @@ import BookingForm from '../Components/Comman/BookingForm';
 
 export default function HundredHoursYoga() {
   return (
-    <>
-      <NavComponent imgSrc={slider1} />
+    <section className=' overflow-hidden'>
+      <NavComponent  imgSrc={slider1} />
 
       <CourseInfoOne />
       
@@ -28,7 +28,7 @@ export default function HundredHoursYoga() {
       <Footer />
 
 
-    </>
+    </section>
 
 
   )

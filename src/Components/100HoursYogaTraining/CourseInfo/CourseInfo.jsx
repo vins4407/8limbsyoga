@@ -30,9 +30,9 @@ export default function CourseInfoOne() {
                 />
             </div>
 
-            <p>8 Limbs Yoga Studio provides clean and comfortable accommodation for all students. The rooms are equipped with all the necessary amenities to make your stay comfortable and convenient. The accommodations are located in Bhiwandi, near Narpoli, which is a quiet and peaceful area.</p>
+            <p>8 Limbs Yoga Studio provides clean and comfortable accommodation for all students. The rooms are equipped with all the necessary amenities to make your stay comfortable and convenient. The accommodations are located in Vasai, which is a quiet and peaceful area.</p>
             <p>8 Limbs Yoga Studio provides three healthy and delicious vegetarian meals a day, prepared with organic and locally sourced ingredients. The sattvic diet is an essential aspect of yoga practice that promotes physical, mental, and spiritual well-being.</p>
-            <p>8 Limbs Yoga Studio is a leading yoga studio in Bhiwandi, India, with a team of experienced and certified yoga teachers. The studio offers a variety of yoga classes for all levels, from beginners to advanced. 8 Limbs Yoga Studio is committed to providing students with a high-quality yoga education and experience.</p>
+            <p>8 Limbs Yoga Studio is a leading yoga studio in Vasai, India, with a team of experienced and certified yoga teachers. The studio offers a variety of yoga classes for all levels, from beginners to advanced. 8 Limbs Yoga Studio is committed to providing students with a high-quality yoga education and experience.</p>
             
 
             <div className='flex  flex-wrap py-3  justify-evenly gap-8'>
