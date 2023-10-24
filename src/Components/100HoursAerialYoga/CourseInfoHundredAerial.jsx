@@ -73,7 +73,7 @@ export default function CourseInfoHundredAerial() {
 
     </div>
 
-    <div className=' px-5 md:px-20 3xl:px-80  bg-white overflow-hidden py-20  flex flex-col  gap-6'>
+    <div className=' px-5 md:px-20 3xl:px-80  bg-[#dbefebff] overflow-hidden py-20  flex flex-col  gap-6'>
         <p className=' text-3xl font-semibold '><strong>Embark on a Transformative Journey with our 100 Hours Aerial Yoga Teacher Training at <p className=' text-orange-500'>8 Limbs Yoga Studio in Vasai, Mumbai</p></strong></p>
 
         <p>Are you ready to embark on a transformative journey of self-discovery and professional growth? Look no further than 8 Limbs Yoga Studio's 100-Hours Yoga Teacher Training in Vasai, Mumbai. Here are some key points to consider before joining our program:</p>

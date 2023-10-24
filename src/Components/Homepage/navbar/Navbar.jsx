@@ -12,7 +12,7 @@ import bgFloral2 from '../../../assets/mainassets/imgbin_floral-design-green-flo
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className=" bg-white text-black    overflow-x-clip  " style={{ zIndex: 1000, position: 'relative'  }}>
+    <nav className=" bg-white text-black  shadow-md   overflow-x-clip  " style={{ zIndex: 1000, position: 'relative'  }}>
 
       {/* <img src={bgFloral3} className='absolute w-16 2xl:w-36 z-10 -top-4 -left-6 rotate-[-75deg]'></img> */}
       <img src={bgFloral2} className='absolute w-16 2xl:w-36 z-0 left-0   -top-16 rotate-[90deg]  transform -scale-x-100'></img>
@@ -34,7 +34,7 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 hover:text-orange-300 inline-block">
+            <Link to="/Studios" className="py-7 px-3 hover:text-orange-300 inline-block">
               Studios
             </Link>
           </li>
@@ -55,7 +55,7 @@ const Navbar = () => {
           </li>
           <NavLinks />
           <li>
-            <Link to="/" className="py-7 px-3 hover:text-orange-300 inline-block">
+            <Link to="/Studios" className="py-7 px-3 hover:text-orange-300 inline-block">
               Studios
             </Link>
           </li>

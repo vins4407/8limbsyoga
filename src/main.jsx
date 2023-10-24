@@ -16,6 +16,7 @@ import BrainBodyYoga from "./Pages/BrainBodyYoga";
 import SpineAwarenessYoga from "./Pages/SpineAwarenessYoga";
 import FaceYoga from "./Pages/FaceYoga";
 import GutBrainYoga from "./Pages/GutBrainYoga.jsx";
+import Studios from "./Pages/Studios";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -23,6 +24,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
            <Routes>
                 <Route exact path="/" element={<Homepage/>}></Route>
+                <Route exact path="/Studios" element={<Studios/>}></Route>
+
                 <Route exact path="/100-hour-yoga-teacher-training" element={<HundredHoursYoga/>}></Route>
                 <Route exact path="/200-hour-yoga-teacher-training" element={<TwoHundredHoursYoga/>}></Route>
                 <Route exact path="/300-hour-yoga-teacher-training" element={<ThreeHundreHoursYoga/>}></Route>

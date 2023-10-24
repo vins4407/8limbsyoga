@@ -7,7 +7,7 @@ const Footer = () => {
   const iframeUrl = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120496.31207160234!2d72.75662146062452!3d19.303674363612593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a93c876cf81b%3A0x173ce4b2f5c06b75!2s8%20Limbs%20Yoga%20Classes!5e0!3m2!1sen!2sin!4v1696495568999!5m2!1sen!2sin';
 
   return (
-    <div id="footer" className="bg-[#f1ece0ff]  relative bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6">
+    <div id="footer" className="bg-[#f1ece0ff]  overflow-hidden relative bg-opacity-20 backdrop-filter backdrop-blur-lg pt-12 flex flex-col gap-6">
         <div className='z-10 w-full h-10 absolute -top-8 bg-pageJoint  bg-repeat-x  bg-contain' />
 
         <div className="  flex flex-col xl:flex-row justify-center md:justify-around   ">

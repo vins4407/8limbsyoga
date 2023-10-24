@@ -1,11 +1,14 @@
 import React from 'react'
 import Footer from '../Components/Homepage/footer/Footer'
 import slider1 from "../assets/mainassets/slider2.webp"
+
 import yogapose from '../assets/mainassets/yoga-illustration.png'
 import NavComponent from '../Components/100HoursYogaTraining/NavComponent/NavComponent';
 import Enquery from '../Components/Homepage/EnquirySection/Enquery';
 import CourseInfoOne from '../Components/100HoursYogaTraining/CourseInfo/CourseInfo';
 import BookingForm from '../Components/Comman/BookingForm';
+import KeyTakeways from '../Components/BrainBodyYoga/KeyTakeways';
+import floral from "../assets/mainassets/imgbin_floral-design-vignette-flower-png.png"
 
 export default function HundredHoursYoga() {
   return (
@@ -20,9 +23,12 @@ export default function HundredHoursYoga() {
         <img className='' src={yogapose} alt="yogapose" />
         <BookingForm />
       </div>
+      <KeyTakeways title={' FACE YOGA WORKSHOP'} />
 
-      <div className='relative pb-10'>
+      <div className='relative '>
         <Enquery />
+        <img src={floral} className='absolute w-16 2xl:w-96  bottom-[29rem]  -left-16 rotate-[-90deg] transform -scale-x-100'></img>
+
       </div>
 
       <Footer />
