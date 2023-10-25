@@ -32,10 +32,8 @@ function Homepage() {
       </div>
 
       <div class="fixed bottom-5 left-5  z-50">
-        <a href="https://wa.link/xgp0gf" target="_blank">
+        <a href="tel:+91 75586 60993" target="_blank">
           <div class="bg-orange-500 text-whirete p-4 rounded-full flex items-center justify-center transition duration-300 hover:text-white hover:bg-[#17543eff]">
-            Call Us!
-
             <AiFillPhone color='white' class=" text-4xl" />
           </div>
         </a>
