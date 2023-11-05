@@ -71,7 +71,9 @@ const Navbar = () => {
             </Link>
           </li>
           <div className="py-5">
+          <Link to="/ContactUs">
             <Button title={"JOIN US"} />
+          </Link>
           </div>
         </ul>
       </div>
