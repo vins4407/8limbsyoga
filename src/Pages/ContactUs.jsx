@@ -6,7 +6,7 @@ import StudioSection from '../Components/Comman/StudioSection'
 import BookingForm from '../Components/Comman/BookingForm'
 import { DotLottiePlayer } from '@dotlottie/react-player';
 import '@dotlottie/react-player/dist/index.css';
-
+import yogalottie from '../assets/lottie/Animation-1699113003378.lottie'
 function ContactUs() {
     return (
         <>
@@ -19,7 +19,7 @@ function ContactUs() {
                     <BookingForm />
                     <div >
                         <DotLottiePlayer
-                            src="/src/assets/lottie/Animation-1699113003378.lottie"
+                            src={yogalottie}
                             autoplay
                             loop
                         >

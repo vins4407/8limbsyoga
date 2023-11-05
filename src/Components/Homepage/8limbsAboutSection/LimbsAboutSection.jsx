@@ -2,6 +2,7 @@ import React from 'react'
 import Centerbg from '../../../assets/mainassets/imgbin_floral-design-green-font-png.png'
 import { DotLottiePlayer } from '@dotlottie/react-player';
 import '@dotlottie/react-player/dist/index.css';
+import yogaLottie from '../../../assets/lottie/Animation-1697991889977.lottie'
 
 function LimbsAboutSection() {
   return (
@@ -39,7 +40,7 @@ function LimbsAboutSection() {
           <div className=' relative'>
             <img className=' absolute   ' src={Centerbg}></img>
             <DotLottiePlayer
-              src="/src/assets/lottie/Animation-1697991889977.lottie"
+              src={yogaLottie}
               autoplay
               loop
             >
