@@ -2,14 +2,17 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
 import {BsChevronDown,BsChevronUp} from "react-icons/bs"
+import { IoIosCloseCircleOutline } from "react-icons/io"
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
     <>
+                
       {links.map((link) => (
         <div >
+
           <div className="px-3 text-left md:cursor-pointer group z-10">
             <h1
               className="py-7 flex text-black md:md:text-black hover:text-orange-300 justify-between items-center md:pr-0 pr-5 group"
@@ -35,7 +38,7 @@ const NavLinks = () => {
                     mt-1 bg-white rotate-45"
                     ></div>
                   </div>
-                  <div className="bg-white p-5 grid grid-cols-3 gap-10">
+                  <div className="bg-white p-5 grid grid-cols-2 gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div>
                         <h1 className="text-lg font-semibold">
@@ -74,7 +77,7 @@ const NavLinks = () => {
                         ? setSubHeading(slinks.Head)
                         : setSubHeading("")
                     }
-                    className="py-4 pl-7 font-semibold md:pr-0 pr-5 flex justify-between items-center"
+                    className="py-4 pl-7 font-semibold md:pr-0 pr-5  flex justify-m items-center"
                   >
                     {slinks.Head}
 

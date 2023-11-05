@@ -1,7 +1,7 @@
 import React from 'react'
 import Centerbg from '../../../assets/mainassets/imgbin_floral-design-green-font-png.png'
-import Lottie from 'lottie-react';
-import CenterLottie from '../../../assets/lottie/Animation - 1697991889977.json'
+import { DotLottiePlayer } from '@dotlottie/react-player';
+import '@dotlottie/react-player/dist/index.css';
 
 function LimbsAboutSection() {
   return (
@@ -29,26 +29,28 @@ function LimbsAboutSection() {
         <div className=' text-white flex place-items-center backdrop-blur-[2px] pt-10 flex-col xl:flex-row   gap-20  '>
 
           <div className=' flex flex-1 flex-col gap-y-4 '>
-            
-              <h1 className=' rounded-full p-5 bg-[#9eb1d0]'>Immerse yourself in the wisdom of our world-class instructors.</h1>
-              <h1 className=' rounded-full p-5 bg-[#8abdb6ff]'>Follow the path to becoming a certified yoga teacher.</h1>
-              <h1 className=' rounded-full p-5 bg-[#b6cd61]'>Unplug with us on off-site retreats guided by seasoned yoga masters.</h1>
+
+            <h1 className=' rounded-full p-5 bg-[#9eb1d0]'>Immerse yourself in the wisdom of our world-class instructors.</h1>
+            <h1 className=' rounded-full p-5 bg-[#8abdb6ff]'>Follow the path to becoming a certified yoga teacher.</h1>
+            <h1 className=' rounded-full p-5 bg-[#b6cd61]'>Unplug with us on off-site retreats guided by seasoned yoga masters.</h1>
 
           </div>
 
           <div className=' relative'>
-          <img className=' absolute   '  src={Centerbg}></img>
-            <Lottie
-              animationData={CenterLottie} // Replace with your animation JSON data
-              loop
+            <img className=' absolute   ' src={Centerbg}></img>
+            <DotLottiePlayer
+              src="/src/assets/lottie/Animation-1697991889977.lottie"
               autoplay
-            />
+              loop
+            >
+            </DotLottiePlayer>
+
 
           </div>
           <div className=' flex flex-1 flex-col gap-y-4 '>
-          <h1 className=' rounded-full p-5 bg-[#b6cd61]'>Enhance your practice through a variety of online workshops.</h1>
-          <h1 className=' rounded-full p-5 bg-[#9eb1d0]'>Be part of a community that fosters a strong sense of belonging, support, and growth.</h1>
-          <h1 className=' rounded-full p-5 bg-[#8abdb6ff]'>Join us for off-site retreats with spiritual yoga trainers, offering a deeper connection with yourself.</h1>
+            <h1 className=' rounded-full p-5 bg-[#b6cd61]'>Enhance your practice through a variety of online workshops.</h1>
+            <h1 className=' rounded-full p-5 bg-[#9eb1d0]'>Be part of a community that fosters a strong sense of belonging, support, and growth.</h1>
+            <h1 className=' rounded-full p-5 bg-[#8abdb6ff]'>Join us for off-site retreats with spiritual yoga trainers, offering a deeper connection with yourself.</h1>
 
           </div>
         </div>

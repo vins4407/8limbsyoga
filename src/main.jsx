@@ -17,14 +17,18 @@ import SpineAwarenessYoga from "./Pages/SpineAwarenessYoga";
 import FaceYoga from "./Pages/FaceYoga";
 import GutBrainYoga from "./Pages/GutBrainYoga.jsx";
 import Studios from "./Pages/Studios";
+import ContactUs from "./Pages/ContactUs";
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <BrowserRouter>
            <Routes>
+
                 <Route exact path="/" element={<Homepage/>}></Route>
                 <Route exact path="/Studios" element={<Studios/>}></Route>
+                <Route exact path="/ContactUs" element={<ContactUs/>}></Route>
+
 
                 <Route exact path="/100-hour-yoga-teacher-training" element={<HundredHoursYoga/>}></Route>
                 <Route exact path="/200-hour-yoga-teacher-training" element={<TwoHundredHoursYoga/>}></Route>

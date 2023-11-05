@@ -32,22 +32,27 @@ export const links = [
       submenu: true,
       sublinks: [
         {
+          Head: "Mind-Body Awareness Workshops:",
           sublink: [
             { name: "BRAIN BODY CONNECT WORKSHOP", link: "/BRAIN-BODY-CONNECT-WORKSHOP" },
             { name: "SPINE AWARENESS AND CARE WORKSHOP", link: "/SPINE-AWARENESS-AND-CARE-WORKSHOP" },
             { name: "YOGA FOR STRESS AND ANXIETY", link: "/YOGA-FOR-STRESS-AND-ANXIETY" },
             { name: "FACE YOGA WORKSHOP", link: "/FACE-YOGA-WORKSHOP" },
             { name: "POWER OF BREATHING WORKSHOP", link: "/POWER-OF-BREATHING-WORKSHOP" },
+            { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/GUT-AND-BRAIN-CONNECT-WORKSHOP" },
+            { name: "SOUND HEALING WORKSHOP", link: "/SOUND-HEALING-WORKSHOP" },
+
+
           ],
         },
 
         {
+          Head: "Technique and Practice Workshops",
+
           sublink:[
 
-            { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/GUT-AND-BRAIN-CONNECT-WORKSHOP" },
             { name: "MUDRA WORKSHOP", link: "/MUDRA-WORKSHOP" },
             { name: "YOGA WITH BLOCK AND OTHER PROPS", link: "/YOGA-WITH-BLOCK-AND-OTHER-PROPS" },
-            { name: "SOUND HEALING WORKSHOP", link: "/SOUND-HEALING-WORKSHOP" },
 
           ]
         }

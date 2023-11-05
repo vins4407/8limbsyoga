@@ -18,7 +18,7 @@ function FiFtyHoursAerialYoga() {
         <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />
         <div className='z-10 w-full h-10 absolute -bottom-7 bg-pageJoint  bg-repeat-x  bg-contain' />
         <img className='' src={yogapose} alt="yogapose" />
-        <BookingForm />
+        <BookingForm />yogapose
       </div>
 
       <div className='relative pb-10'>

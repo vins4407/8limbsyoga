@@ -13,7 +13,9 @@ function Headerlinks() {
             <span className='flex  items-center gap-2'><FaMobileAlt /><a href="tel:+91 75586 60993">+91 75586 60993</a></span>
             <span className='flex items-center gap-2'><BsMailbox /><a href="mailto:richasingh1907@gmail.com>">richasingh1907@gmail.com</a></span>
 
-        </div>)
+        </div>
+        
+        )
 }
 
 export default Headerlinks

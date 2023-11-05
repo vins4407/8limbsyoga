@@ -13,9 +13,11 @@ import floral from "../assets/mainassets/imgbin_floral-design-vignette-flower-pn
 export default function HundredHoursYoga() {
   return (
     <section className=' overflow-hidden'>
+
       <NavComponent  imgSrc={slider1} />
 
       <CourseInfoOne />
+      
       
       <div className='flex flex-col lg:flex-row 3xl:px-80 bg-[#f9f5ecff] items-center relative justify-around p-10 md:py-20'>
         <div className='z-10 w-full h-10 absolute -top-7 bg-pageJoint  bg-repeat-x  bg-contain' />

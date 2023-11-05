@@ -35,10 +35,10 @@ const Footer = () => {
           {/* Explore links */}
           <div className="flex flex-col text-xl font-medium text-center xl:text-left  text-black   gap">
             <h1 className=" font-semibold">Explore</h1>
-            <div class="">
-              <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
-              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+            <div className="">
+              <span className="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+              <span className="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <span className="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
             </div>
 
             <div className="gap-2   text-base flex flex-col">
@@ -56,10 +56,10 @@ const Footer = () => {
           {/* Contact Info */}
           <div className="flex flex-col text-xl font-medium text-center xl:text-left   text-black ">
             <h1 className=" font-semibold">Contact Info</h1>
-            <div class="">
-              <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
-              <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-              <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+            <div className="">
+              <span className="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+              <span className="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <span className="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
             </div>
             <div className="gap-2 flex text-base flex-col">
               <a href="tel:+91 75586 60993">+91 75586 60993</a>
@@ -77,10 +77,10 @@ const Footer = () => {
 
             <div className=" flex items-center pb-3 gap-2">
               <a className="bg-orange-500 text-white  px-6 py-3 " href="https://maps.app.goo.gl/dg88jY5rQMhFhaFn9" target="_blanck">Get Directions</a>
-              <div class=" items-center ">
-                <span class="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
-                <span class="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
-                <span class="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
+              <div className=" items-center ">
+                <span className="inline-block w-24 h-1 rounded-full bg-orange-500"></span>
+                <span className="inline-block w-3 h-1 rounded-full bg-orange-500 ml-1"></span>
+                <span className="inline-block w-1 h-1 rounded-full bg-orange-500 ml-1"></span>
               </div>
 
             </div>
@@ -89,7 +89,7 @@ const Footer = () => {
               width="350"
               height="300"
               style={{ border: 0 }}
-              allowfullscreen
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
