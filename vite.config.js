@@ -1,18 +1,11 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
 
-  // Add this assetInclude option to handle .lottie files
-  build: {
-    rollupOptions: {
-      output: {
-        assetFileNames: 'assets/[name][ext]',
-      },
-    },
-  },
   assetsInclude: ['**/*.lottie'],
 
-  // Other Vite configuration options...
-});
+  
+})
