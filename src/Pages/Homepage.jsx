@@ -7,14 +7,12 @@ import Experience from '../Components/Homepage/experienceSection/Experience'
 import { Testimonials } from '../Components/Homepage/testimonialSection/testimonials'
 import { AiFillPhone, AiOutlineWhatsApp, } from "react-icons/ai"
 import LimbsAboutSection from '../Components/Homepage/8limbsAboutSection/LimbsAboutSection'
-import Headerlinks from '../Components/Comman/Headerlinks'
+
 
 function Homepage() {
   return (
     <section className='relative overflow-hidden'>
-
-
-<Headerlinks/>
+      
       <Herosection />
       <LimbsAboutSection/>
     

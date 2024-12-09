@@ -15,7 +15,7 @@ const NavLinks = () => {
 
           <div className="px-3 text-left md:cursor-pointer group z-10">
             <h1
-              className="py-7 flex text-black md:md:text-black hover:text-orange-300 justify-between items-center md:pr-0 pr-5 group"
+              className="py-7 flex text-white hover:text-orange-300 justify-between items-center md:pr-0 pr-5 group"
               onClick={() => {
                 heading !== link.name ? setHeading(link.name) : setHeading("");
                 setSubHeading("");
@@ -23,10 +23,10 @@ const NavLinks = () => {
             >
               {link.name}
               <span className="text-xl md:hidden inline">
-                {heading === link.name ? <BsChevronUp/> : <BsChevronDown/>}
+                {heading === link.name ? <BsChevronUp size={10}/> : <BsChevronDown size={10}/>}
               </span>
               <span className="text-xl md:mt-1 md:ml-2  md:block hidden group-hover:rotate-180 group-hover:-mt-2">
-                <BsChevronDown/>
+                <BsChevronDown size={10}/>
               </span>
             </h1>
             {link.submenu && (
@@ -82,7 +82,7 @@ const NavLinks = () => {
                     {slinks.Head}
 
                     <span className="text-xl md:mt-1 md:ml-2 inline">
-                    {subHeading === slinks.Head ? <BsChevronUp/> : <BsChevronDown/>}
+                    {subHeading === slinks.Head ? <BsChevronUp size={10}/> : <BsChevronDown size={10}/>}
                     </span>
                   </h1>
                   <div

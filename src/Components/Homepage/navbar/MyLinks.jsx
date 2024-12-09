@@ -1,6 +1,6 @@
 export const links = [
     {
-      name: "Yoga Teacher training Courses",
+      name: "Teacher Training Courses",
       submenu: true,
       sublinks: [
         {
@@ -28,7 +28,7 @@ export const links = [
     },
 
     {
-      name: "Workshop",
+      name: "Yoga Classes",
       submenu: true,
       sublinks: [
         {
@@ -45,6 +45,25 @@ export const links = [
 
           ],
         },
+      ],
+      },
+
+        {
+          name: "Courses",
+          submenu: true,
+          sublinks: [
+            {
+              Head: "Mind-Body Awareness Workshops:",
+              sublink: [
+                { name: "BRAIN BODY CONNECT WORKSHOP", link: "/BRAIN-BODY-CONNECT-WORKSHOP" },
+                { name: "SPINE AWARENESS AND CARE WORKSHOP", link: "/SPINE-AWARENESS-AND-CARE-WORKSHOP" },
+                { name: "YOGA FOR STRESS AND ANXIETY", link: "/YOGA-FOR-STRESS-AND-ANXIETY" },
+                { name: "FACE YOGA WORKSHOP", link: "/FACE-YOGA-WORKSHOP" },
+                { name: "POWER OF BREATHING WORKSHOP", link: "/POWER-OF-BREATHING-WORKSHOP" },
+                { name: "GUT AND BRAIN CONNECT WORKSHOP", link: "/GUT-AND-BRAIN-CONNECT-WORKSHOP" },
+                { name: "SOUND HEALING WORKSHOP", link: "/SOUND-HEALING-WORKSHOP" },
+              ],
+            },
 
         {
           Head: "Technique and Practice Workshops",
